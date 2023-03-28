@@ -1,4 +1,6 @@
-.container {
+import styled from '@emotion/styled';
+
+export const Container = styled.div`
   width: 600px;
   margin: 50px auto;
   font-size: 30px;
@@ -6,9 +8,10 @@
   border-radius: 10px;
   padding: 20px;
   box-sizing: border-box;
-}
-.friend__list {
+`;
+
+export const List = styled.ul`
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-}
+`;
